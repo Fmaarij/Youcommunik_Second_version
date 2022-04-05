@@ -1,150 +1,171 @@
-body{
-    margin:0 auto;
+body {
+    margin: 0 auto;
     width: 60%;
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 0px 0px 35px 1px rgb(172, 172, 172); ;
+    box-shadow: 0px 0px 35px 1px rgb(172, 172, 172);
+    ;
 }
-nav{
+
+nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu{
+.menu {
     display: flex;
-    color:white;
+    color: white;
 }
-.menu > div{
+
+.menu>div {
     margin: 8px;
-    font-size:12px;
+    font-size: 12px;
     text-align: center;
 }
- /* banner */
-.banner{
+
+/* banner */
+.banner {
     background-color: darkslategrey;
     display: flex;
     justify-content: space-around;
-    /* border: 1px red solid; */  
-    
+    /* border: 1px red solid; */
+
 }
-.banner > div{
+
+.banner>div {
     display: flex;
-    color:white;
-    margin-top:30px ;
-    margin-bottom:30px ;
-    align-items: center; 
-   
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+
 }
 
 .banner .bannertxt {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     text-align: center;
     width: 50%;
 }
-.banner .bannertxt b{
+
+.banner .bannertxt b {
     font-size: xx-large;
-} 
+}
+
 /*eclosion*/
-.titre{
+.titre {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.titre h1{
+
+.titre h1 {
     background-color: darkslategrey;
-    color:white;
+    color: white;
     width: 140px;
     height: 30px;
     text-align: center;
     padding-top: 5px;
 }
-.txtetimg{
-    display: flex;   
+
+.txtetimg {
+    display: flex;
 }
-.txtetimg > div{
-width: 50%;
+
+.txtetimg>div {
+    width: 50%;
 }
-.ecloimg img{
+
+.ecloimg img {
     margin-left: 50px;
     width: 25%;
 }
 
 /*footer après chaque titre h1*/
-.sectmini{
+.sectmini {
     background-color: antiquewhite;
-    
+
 }
-.minifooter{
-    color:black;
+
+.minifooter {
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: antiquewhite;
- }
-.minifooter > div{
-    margin: 20px;
-    font-size:10px;
-    text-align: center;
-    
 }
-.minifooter img{
+
+.minifooter>div {
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.minifooter img {
     width: 25%;
 }
 
 /*logo carte de visite de la Minifooter de évolution decendu vers bas*/
-.imgwrap{
+.imgwrap {
 
 
     text-align: center;
-    font-size:10px;
+    font-size: 10px;
     margin-top: -25px;
 }
-.imgwrap img{
+
+.imgwrap img {
 
     width: 6%;
     text-align: center;
-    font-size:10px;   
+    font-size: 10px;
 }
 
 /* footer */
-footer{
+footer {
     background-color: black
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* background-color: black */
- }
-.footer > div{
-    margin: 20px;
-    font-size:10px;
-    text-align: center;
-    color:white
 }
 
-.footer .p1{
-    margin-right: 70px; 
-    margin-bottom: 20px;;
+.footer>div {
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: white
 }
-.footer .p2{
-    margin-right: 15px; 
-    margin-bottom: 20px;;
+
+.footer .p1 {
+    margin-right: 70px;
+    margin-bottom: 20px;
+    ;
+}
+
+.footer .p2 {
+    margin-right: 15px;
+    margin-bottom: 20px;
+    ;
 }
 
 .footerimg {
-   width: 300px;
+    width: 300px;
 }
 
-.footerimg img{
+.footerimg img {
     width: 10%;
 }
-.CGV                                                                                                                               {
+
+.CGV {
     display: flex;
     justify-content: end;
     color: rgba(255, 255, 255, 0.733);
     font-size: 8px;
     margin-right: 10px;
-   
+
 }
