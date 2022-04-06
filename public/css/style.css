@@ -90,6 +90,10 @@ nav {
     margin-left: 50px;
     width: 25%;
 }
+.eclotxt p{
+    font-size: 10px;
+    padding-right: 50px;
+}
 
 /*footer après chaque titre h1*/
 .sectmini {
@@ -106,7 +110,7 @@ nav {
 }
 
 .minifooter>div {
-    margin: 20px;
+     margin: 20px; 
     font-size: 10px;
     text-align: center;
 
@@ -115,6 +119,7 @@ nav {
 .minifooter img {
     width: 25%;
 }
+
 
 /*logo carte de visite de la Minifooter de évolution decendu vers bas*/
 .imgwrap {
