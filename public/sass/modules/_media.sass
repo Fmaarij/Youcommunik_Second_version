@@ -1,1 +1,44 @@
 @import "_variables.sass"
+@media (max-width: 716px)
+    ul
+        display: flex
+        flex-direction: column
+        width: 25%
+        li
+            font-size: 1.5rem
+            text-align: center
+            justify-content: center
+            align-items: center
+            display: flex
+            padding-bottom: 1rem
+
+            // à revoir
+@media (min-width: 575px) and (max-width: 767px)
+    nav
+        ul
+            li
+                img
+                    display: none !important
+
+@media (min-width: 320px) and (max-width:765px)
+    h1
+        font-size: 1.5rem !important
+
+    footer
+        div
+            p
+                text-align: center
+                padding-bottom: 1rem
+                padding-top: 1rem
+            .footerimg
+                img
+                    align-items: center
+                    width: 80px !important
+
+        .CGV
+            justify-content: center !important
+            margin-left: 1.5rem
+            margin-top: 0
+    .sectionsbg
+        img
+            width: 80px !important
